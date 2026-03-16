@@ -5,8 +5,6 @@ Containerized Student Records REST API built with Node.js and PostgreSQL using D
 
 ## 1. Introduction
 
-Modern applications are increasingly deployed using container technologies to improve scalability, portability, and consistency across environments. Containerization packages applications along with their dependencies into isolated units called containers. These containers can run reliably across different systems without configuration conflicts.
-
 Docker is one of the most widely used containerization platforms. It allows developers to build, ship, and run applications efficiently. Docker Compose enables orchestration of multiple containers that together form a complete application stack.
 
 This project implements a containerized **Student Records Web Application** using:
@@ -309,12 +307,8 @@ The system successfully stored and retrieved student records across container re
 
 ## 10. Conclusion
 
-This project demonstrates the deployment of a containerized web application using Docker technologies. The system integrates multiple DevOps concepts such as containerization, service orchestration, optimized image builds, and container networking.
-
 By using **Docker Compose** and **Macvlan networking**, the backend API and PostgreSQL database were deployed as independent containers with static LAN IP addresses. **Multi-stage builds** and **Alpine-based images** ensured minimal image sizes and efficient resource usage.
 
 **Persistent storage** was implemented using Docker named volumes, ensuring that database data remains intact across container restarts.
-
-Overall, this project provides practical experience in modern DevOps workflows and containerized application deployment.
 
 ---
