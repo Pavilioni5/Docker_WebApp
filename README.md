@@ -3,6 +3,11 @@ Containerized Student Records REST API built with Node.js and PostgreSQL using D
 
 ---
 
+## GitHub Repository
+
+🔗 [View Assignment Files](https://github.com/Pavilioni5/Docker_WebApp)
+
+---
 ## 1. Introduction
 
 Docker is one of the most widely used containerization platforms. It allows developers to build, ship, and run applications efficiently. Docker Compose enables orchestration of multiple containers that together form a complete application stack.
